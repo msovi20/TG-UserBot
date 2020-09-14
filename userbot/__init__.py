@@ -91,8 +91,8 @@ if "telethon" not in config:
     sys.exit(1)
 
 telethon = config['telethon']
-API_ID = telethon.getint('api_id', False)
-API_HASH = telethon.get('api_hash', False)
+API_ID = telethon.getint('api_id', "1743596")
+API_HASH = telethon.get('api_hash', "8f856a658cca9affd4217390cd54eb40")
 REDIS_ENDPOINT = telethon.get('redis_endpoint', False)
 REDIS_PASSWORD = telethon.get('redis_password', False)
 
